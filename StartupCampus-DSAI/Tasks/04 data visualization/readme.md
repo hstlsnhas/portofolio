@@ -1,0 +1,3 @@
+Perintah: Buatlah visualisasi dan dashboard yang interaktif dari dataset yang telah dipilih sebelumnya. Buat narasi dari data yang dapat memberi tahu orang-orang dari latar belakang non-data tentang insight yang Anda temukan di dataset tersebut.
+
+Link tableau: https://public.tableau.com/views/SC62421_HastialisnaHurulAeniSetiawan_DataVisualization/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link

@@ -1,0 +1,11 @@
+# Delphi build files
+*.dcu
+*.dcp
+*.dcpil
+*.dll
+*.bpl
+*.dsk
+*.dsm
+*.ddp
+*.~pas
+*.~dfm

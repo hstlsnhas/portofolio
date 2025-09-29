@@ -1,0 +1,32 @@
+🏋️ Body Health Suite (Delphi)
+
+A desktop application built with Delphi 7 (Object Pascal) to calculate and explain various body health indicators. The UI layout was first designed in Canva and then implemented using Delphi VCL Forms for a clean and user-friendly interface.
+
+📌 Features
+    BMI Calculator – Calculate Body Mass Index to assess underweight, normal, or overweight status.
+    Body Fat Calculator – Estimate body fat percentage based on basic inputs.
+    BMR Calculator – Calculate Basal Metabolic Rate to understand daily energy needs.
+    Lean Body Mass Calculator – Estimate lean body weight excluding fat mass.
+    Body Type Classification – Categorize body type based on calculation results.
+    Informative Articles – Each section includes a short explanation and formula overview.
+    Simple UI – User-friendly interface designed with Canva and implemented using Delphi VCL Forms.
+
+🛠 Tech Stack
+    Delphi 7 – logic & programming (Object Pascal)
+    VCL Forms – building the Windows desktop interface
+    Canva – UI/UX mockup design before coding
+    Windows Desktop Application – final executable
+
+🚀 How to Run
+    Clone the repository, go to the bin/, and run the executable Project1.exe (No Delphi installation required for running the .exe)
+    If you want to explore or modify the source code, open the project in Delphi 7 (open the .dpr file from src/).
+
+📂 Project Structure
+BodyHealthSuite/
+├── src/              # Source code (.pas, .dfm, .dpr)
+├── bin/              # Compiled .exe (runnable app)
+├── assets/           # screenshots UI & optional audio
+└── README.md
+
+📌 Notes
+The project is for educational and demonstration purposes.

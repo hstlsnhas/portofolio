@@ -1,6 +1,7 @@
 📊 Data Science Portfolio – Startup Campus Batch 6 - Data Science & Artificial Intelligence
 
-This repository contains my learning journey and project portfolio during the Independent Study at Startup Campus - Data Science & Artificial Intelligence (Batch 6, 2024). The materials include weekly tasks, mini projects, and a final project as part of the program.
+This folder contains my learning journey and project portfolio during the Independent Study at Startup Campus - Data Science & Artificial Intelligence (Batch 6, 2024).
+The materials include weekly tasks, mini projects, and a final project as part of the program.
 
 📂 Repository Structure
 DataScience-Portfolio/
@@ -18,11 +19,11 @@ DataScience-Portfolio/
 │── README.md
 
 🛠️ Tech Stack
-    Python (NumPy, Pandas, Matplotlib, Scikit-learn)
-    Jupyter Notebook
-    Tableau
-    SQL
+- Python (NumPy, Pandas, Matplotlib, Scikit-learn)
+- Jupyter Notebook
+- Tableau
+- SQL
 
 📌 Notes
-This repository is intended for educational and portfolio purposes.
+This is intended for educational and portfolio purposes.
 All datasets used are either open source or provided during the program.

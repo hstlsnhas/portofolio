@@ -1,0 +1,210 @@
+ALGORITMA -- TUGAS BESAR
+
+NAMA: HASTIALISNA HURUL AENI SETIAWAN
+NIM : 2102839
+
+PROGRAM Tebak_Tebakan
+DEKLARASI
+	pilih, hewan, makanan, M : integer
+	angka, tebak_angka : integer
+	H : string
+	main : char
+
+ALGORITMA
+	repeat
+		clear
+		write ('biodata')
+		write ('program tebak-tebakan')
+		write (menu tebak-tebakan)						//user memilih menu 1-3 yaitu 1) tebak hewan; 2) tebak makanan; 3) tebak angka
+		read (pilih)
+		
+		case (pilih)
+			1 : write ('menu awal tebak hewan')				//user diberikan tiga kali kesempatan menjawab diiringi soal ciri-ciri hewan
+			    hewan <-- random (12)					//fungsi agar komputer memilih soal secara acak				
+				 if (hewan=0) then						//soal 1, tebak hewan: harimau
+					write ('soal kesempatan pertama')
+					read (H)
+					if (H <> 'harimau') then
+						write ('soal kesempatan kedua')
+						read (H)
+						if (H <> 'harimau') then
+							write ('soal kesempatan ketiga')
+							read (H)
+							if (H <> 'harimau') then
+								write ('gagal')
+								write ('apakah masih ingin bermain?')
+								read (main)
+							else 
+								write ('berhasil')
+								write ('apakah masih ingin bermain?')
+								read (main)
+							endif
+						else
+							write ('berhasil')
+							write ('apakah masih ingin bermain?')
+							read (main)
+						endif
+					else
+						write ('berhasil')
+						write ('apakah masih ingin bermain?')
+						read (main)
+					 endif
+				 endif
+
+				 else if (hewan=1) then						//soal 2, tebak hewan: paus
+					write ('soal kesempatan pertama')
+					read (H)
+					if (H <> 'paus') then
+						write ('soal kesempatan kedua')
+						read (H)
+						if (H <> 'paus') then
+							write ('soal kesempatan ketiga')
+							read (H)
+							if (H <> 'paus') then
+								write ('gagal')
+								write ('apakah masih ingin bermain?')
+								read (main)
+							else 
+								write ('berhasil')
+								write ('apakah masih ingin bermain?')
+								read (main)
+							endif
+						else
+							write ('berhasil')
+							write ('apakah masih ingin bermain?')
+							read (main)
+						endif
+					else
+						write ('berhasil')
+						write ('apakah masih ingin bermain?')
+						read (main)
+				 	endif
+				 endif
+
+				 .
+				 .
+				 .
+				 .
+				 .
+
+				 else if (hewan=11) then						//soal 12, tebak hewan: panda
+					write ('soal kesempatan pertama')
+					read (H)
+					if (H <> 'panda') then
+						write ('soal kesempatan kedua')
+						read (H)
+						if (H <> 'panda') then
+							write ('soal kesempatan ketiga')
+							read (H)
+							if (H <> 'panda') then
+								write ('gagal')
+								write ('apakah masih ingin bermain?')
+								read (main)
+							else 
+								write ('berhasil')
+								write ('apakah masih ingin bermain?')
+								read (main)
+							endif
+						else
+							write ('berhasil')
+							write ('apakah masih ingin bermain?')
+							read (main)
+						endif
+					else
+						write ('berhasil')
+						write ('apakah masih ingin bermain?')
+						read (main)
+				 	endif
+				 endif
+
+			2 : makanan <-- rand (10)
+			    	if (makanan=0) then
+					repeat
+						clear	
+						write ('dodol makanan khas dari garut ')
+						write ('1) mitos 2) fakta')
+						read (M)
+						if (M=1) then
+							write ('salah')
+							write ('apakah masih ingin bermain?')
+							read (main)
+						endif
+						else if (M=2)
+							write ('benar')
+							write ('apakah masih ingin bermain?')
+							read (main)
+						endif
+						else if (M<>1) and (M<>2)
+							write ('error')
+						endif
+					until (M=1) or (M=2)
+				endif
+			    	if (makanan=1) then
+					repeat
+						clear
+						write ('bahan dasar pempek adalah ayam ')
+						write ('1) mitos 2) fakta')
+						read (M)
+						if (M=1) then
+							write ('benar')
+							write ('apakah masih ingin bermain?')
+							read (main)
+						endif
+						else if (M=2)
+							write ('salah')
+							write ('apakah masih ingin bermain?')
+							read (main)
+						endif
+						else if (M<>1) and (M<>2)
+							write ('error')
+						endif
+					until (M=1) or (M=2)
+				endif
+				 .
+				 .
+				 .
+				 .
+				 .
+		
+				if (makanan=9) then
+					repeat
+						clear
+						write ('rempah utama seblak adalah jahe')
+						write ('1) fakta 2) mitos')
+						read (M)
+						if (M=1) then
+							write ('salah')
+							write ('apakah masih ingin bermain?')
+							read (main)
+						endif
+						else if (M=2)
+							write ('benar')
+							write ('apakah masih ingin bermain?')
+							read (main)
+						endif
+						else if (M<>1) and (M<>2)
+							write ('error')
+						endif
+					until (M<>1) and (M<>2)
+				endif
+			3 : clear
+			    write ('menu awal tebak angka rahasia')
+			    angka <-- random (15)
+			    read (tebak_angka)
+			    repeat
+				if (angka>tebak_angka) then
+					write ('angka rahasia lebih tinggi')
+					read (tebak_angka)
+				endif
+				else if (angka<tebak_angka)
+					write ('angka rahasia lebih rendah')
+					read (tebak_angka)
+				endif
+			    until (angka=tebak_angka)
+			    write ('benar, apakah masih ingin main?')
+			    read (main)
+			otherwise :
+			    write ('error')
+		            main <-- y
+	until (main<>y)
+	write ('terima kasih sudah bermain')

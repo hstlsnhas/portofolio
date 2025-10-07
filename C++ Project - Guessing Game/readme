@@ -1,7 +1,7 @@
 🎮 Final Project – Guessing Game Program  
 
-This folder contains my **Final Project** for the *Algorithms and Programming* course.  
-The project implements a simple **Guessing Game** in C++ with three types of challenges.
+This folder contains my Final Project for the *Algorithms and Programming* course.  
+The project implements a simple Guessing Game in C++ with three types of challenges.
 This program is designed in Bahasa Indonesia.  
 
 
@@ -30,9 +30,9 @@ GuessingGame/
 
 
 🛠️ Tech Stack  
-- **Language**: C++  
-- **Compiler**: MinGW / GCC  
-- **IDE**: Code::Blocks / Dev-C++  
-- **Platform**: Windows  
+- Language: C++  
+- Compiler: MinGW / GCC  
+- IDE: Code::Blocks / Dev-C++  
+- Platform: Windows  
 
-✨ *This project was created to fulfill the Final Project requirement for the Algorithms and Programming course.*  
+✨ This project was created to fulfill the Final Project requirement for the Algorithms and Programming course.  
